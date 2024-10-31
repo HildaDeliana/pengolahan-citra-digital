@@ -31,10 +31,9 @@ def blue_channel(image):
     return blue_image
 
 image_paths = {
-    "Daun Pepaya": "path/to/daun_pepaya.jpg",
-    "Daun Singkong": "path/to/daun_singkong.jpg",
-    "Daun Kenikir": "path/to/daun_kenikir.jpg"
-}
+  "Daun Pepaya": "C:\Users\user\Downloads\Daun pepaya.jpeg",
+    "Daun Singkong":"C:\Users\user\Downloads\Daun singkong.jpeg",
+    "Daun Kenikir": "C:\Users\user\Downloads\daun kenikir.jpeg"
 
 for name, path in image_paths.items():
     my_image = image.imread(path)
